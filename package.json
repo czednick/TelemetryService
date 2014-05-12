@@ -1,0 +1,22 @@
+{
+  "name": "TelemetryService",
+  "version": "0.0.0",
+  "description": "A simple service that pushes instrument readings to clients via UDP.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "glup test"
+  },
+  "author": "Casey T. Zednick",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "gulp-mocha": "~0.4.1",
+    "gulp-jshint": "~1.5.5"
+  },
+  "dependencies": {
+    "moment": "~2.6.0",
+    "lodash": "~2.4.1",
+    "sprintf": "~0.1.3"
+  }
+}
